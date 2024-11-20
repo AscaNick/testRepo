@@ -1,0 +1,26 @@
+{
+  "Descriptor": {
+    "Name": "mio-plugin",
+    "DisplayName": "Mio Plugin",
+    "Description": "Un plugin semplice per Microsoft Security Copilot",
+    "Icon": "https://ascanick.github.io./testRepo/icon.png"
+  },
+  "SkillGroups": [
+    {
+      "Format": "API",
+      "Settings": {
+        "OpenApiSpecUrl": "https://ascanick.github.io./testRepo/openapi.yaml"
+      },
+      "Skills": [
+        {
+          "Description": "Recupera dati dall'API",
+          "Inputs": {
+            "Name": "parametro",
+            "Description": "Parametro di esempio",
+            "Required": true
+          }
+        }
+      ]
+    }
+  ]
+}
