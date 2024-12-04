@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "user": "Alice",
+      "message": "Ciao, come stai?",
+      "timestamp": "2024-12-04T16:00:00Z"
+    },
+    {
+      "id": 2,
+      "user": "Bob",
+      "message": "Sto bene, grazie! E tu?",
+      "timestamp": "2024-12-04T16:05:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com"
+    }
+  ]
+}
